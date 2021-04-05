@@ -1,0 +1,38 @@
+{
+  "name": "use-timers-hooks",
+  "version": "1.0.0",
+  "description": "Custom Hooks to schedule execution of functions based on the timeout or interval passed.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank8aug/use-timers-hooks.git"
+  },
+  "keywords": [
+    "hooks",
+    "react-hooks",
+    "custom hooks",
+    "useInterval",
+    "useTimeout",
+    "interval",
+    "timeout",
+    "setInterval",
+    "setTimeout",
+    "use-timers-hooks",
+    "use-timers",
+    "react-use-timers",
+    "react-use-timers-hooks"
+  ],
+  "author": "mayank8aug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayank8aug/use-timers-hooks/issues"
+  },
+  "homepage": "https://github.com/mayank8aug/use-timers-hooks#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
