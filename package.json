@@ -1,10 +1,13 @@
 {
   "name": "use-timers-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom Hooks to schedule execution of functions based on the timeout or interval passed.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "prepublish": "tsc",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -34,5 +37,9 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.4"
   }
 }
