@@ -1,6 +1,6 @@
 {
   "name": "use-timers-hooks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom Hooks to schedule execution of functions based on the timeout or interval passed.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
